@@ -94,5 +94,5 @@ create table if not exists `authorities` (
 
 
 INSERT INTO `oauth_client_details` VALUES ('clientIdPassword','','$2a$10$wbmhJjaPs3Zmm/VtAsITRe6QkDNJWVTNl9B5SEcwZ5AP216NczdyG','read','password,authorization_code,refresh_token','','',600,6000,'{}',''),('sampleClientId','','secret','read','implicit','','',NULL,NULL,'{}','read');
-INSERT INTO `users` VALUES (1,'harish','$2a$10$pTr90p0nsLBU8HxCX.ISpeCVFcBJ1fkM.aHW/sGzlk6R4ib9W9Qwy',1,NULL,NULL,NULL,NULL,NULL,NULL),(2,'hmoyal@mobiquityinc.com','$2a$10$AfqPBBOt1RfZ4mItFC1yIO37Q0ULQ509nLw.qukNQevJ5F5U0e70u',1,'2017-05-30 23:49:16','2017-05-30 23:49:16','2017-05-30 23:49:16','Java','Harish','Moyal');
-INSERT INTO `authorities` VALUES (1, 'harish','ROLE_ADMIN',1),(2, 'hmoyal@mobiquityinc.com','ROLE_USER',2);
+INSERT INTO `users` VALUES (1,'harish','$2a$10$pTr90p0nsLBU8HxCX.ISpeCVFcBJ1fkM.aHW/sGzlk6R4ib9W9Qwy',1,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO `authorities` VALUES (1, 'harish','ROLE_ADMIN',1);

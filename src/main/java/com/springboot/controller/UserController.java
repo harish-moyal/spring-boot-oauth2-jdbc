@@ -38,7 +38,7 @@ public class UserController {
     @RequestMapping("/create")
     public void createUser(Principal user1) {
         User user = new User();
-        user.setUsername("hmoyal@mobiquityinc.com");
+        user.setUsername("harish.mbm@gmail.com");
         user.setPassword(bCryptPasswordEncoder.encode("password"));
         user.setEnabled(true);
         user.setAnniversaryDate(new Date());

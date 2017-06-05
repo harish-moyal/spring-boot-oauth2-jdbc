@@ -1,0 +1,41 @@
+# IntelliJ project files
+/.idea/
+*.iws
+*.ipr
+*.iml
+atlassian-ide-plugin.xml
+
+# ignore Eclipse project files
+.classpath
+.project
+.settings
+.springBeans
+.studio
+
+# binary files produced during build
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# maven target directories
+target
+
+# Mac useless stuff
+.DS_Store
+
+# Window useless stuff
+Thumbs.db
+
+# VIM swap files
+*.swp
+
+*.log
+
+# SonarLint IDE plugin temp files
+.sonar_lock
+
+# Ignore node_modules folder which contains only the vendor libraries
+**/node_modules/
+**/app_js_out/
